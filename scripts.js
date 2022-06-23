@@ -4,9 +4,9 @@ const taskList = document.getElementById('list');
 form.onsubmit = function (e) {
   e.preventDefault();
 
-  const input = document.getElementsByTagName('input')[0];
+  const input = document.getElementsByName('input')[0];
   
-  addTaskToList(input.value)
+  addTaskToList(input.value);
 
   form.reset();
 }
@@ -24,6 +24,7 @@ function addTaskToList (task) {
   taskDescription.setAttribute('for', task);
   taskDescription.appendChild(taskText);
 
+  taskContainer.setAttribute('class', 'taskContainer')
   taskContainer.appendChild(newTask);
   taskContainer.appendChild(taskDescription)
 

@@ -34,3 +34,20 @@ button {
   width: 30%;
   margin-top: 30px;
 }
+
+.taskContainer {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+:checked + label {
+  text-decoration: line-through;
+}
+
+input[type='checkbox'] {
+  margin-top: 4px;
+  margin-right: 10px;
+}

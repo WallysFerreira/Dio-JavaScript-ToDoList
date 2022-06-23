@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* input section */
+
+input {
+  height: 20px;
+  border: 1px solid black;
+  padding: 3px 2px;
+  border-radius: 5px;
+}
+
+button {
+  box-sizing: border-box;
+  background-color: rgba(128, 128, 128, 0.678);
+  border: 2px solid rgba(88, 88, 88, 0.87);
+  height: 27px;
+}
+
+/* list section */
+
+#list {
+  background-color: dimgrey;  
+  width: 30%;
+  margin-top: 30px;
+}
